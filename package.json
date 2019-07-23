@@ -1,0 +1,49 @@
+{
+  "name": "willlink",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve --mode dev",
+    "sit": "vue-cli-service build --mode sit",
+    "prod": "vue-cli-service build --mode prod",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "clipboard": "^2.0.4",
+    "core-js": "^2.6.5",
+    "deepmerge": "^3.3.0",
+    "mand-mobile": "^2.3.2",
+    "qs": "^6.7.0",
+    "shvl": "^2.0.0",
+    "vee-validate": "^2.2.11",
+    "vue": "^2.6.10",
+    "vue-core-image-upload": "^2.4.11",
+    "vue-router": "^3.0.3",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.8.0",
+    "@vue/cli-plugin-eslint": "^3.8.0",
+    "@vue/cli-service": "^3.8.0",
+    "@vue/eslint-config-airbnb": "^4.0.0",
+    "add": "^2.0.6",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-import": "^1.11.0",
+    "cssnano": "^3.10.0",
+    "eslint": "^5.16.0",
+    "eslint-import-resolver-webpack": "^0.11.1",
+    "eslint-plugin-vue": "^5.0.0",
+    "postcss-aspect-ratio-mini": "^1.0.1",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^11.0.0",
+    "postcss-loader": "^2.0.8",
+    "postcss-px-to-viewport": "^0.0.3",
+    "postcss-url": "^7.2.1",
+    "postcss-write-svg": "^3.0.1",
+    "sass": "^1.18.0",
+    "sass-loader": "^7.1.0",
+    "speed-measure-webpack-plugin": "^1.3.1",
+    "vue-template-compiler": "^2.6.10"
+  }
+}

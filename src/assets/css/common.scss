@@ -1,0 +1,385 @@
+@charset "UTF-8";
+@import "./var";
+
+.app {
+
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear-both {
+  clear: both;
+}
+
+.dis-none {
+  display: none;
+}
+
+.dis-none-imp {
+  display: none !important;
+}
+
+.dis-block {
+  display: block;
+}
+
+.dis-block-imp {
+  display: block !important;
+}
+
+.dis-inline {
+  display: inline;
+}
+
+.dis-inline-imp {
+  display: inline !important;
+}
+
+.dis-ib {
+  display: inline-block;
+}
+
+.dis-ib-imp {
+  display: inline-block !important;
+}
+
+.dis-table {
+  display: table;
+}
+
+.dis-cell {
+  display: table-cell;
+}
+
+.dis-flex {
+  display: flex;
+}
+
+.pseudo-clear:after {
+  clear: both;
+  display: block;
+  content: '';
+}
+
+.pseudo-clear:before {
+  clear: both;
+  display: block;
+  content: '';
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-nowrap {
+  white-space: nowrap;
+}
+
+.text-lowercase {
+  text-transform: lowercase;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.pos-rl {
+  position: relative;
+}
+
+.pos-ab {
+  position: absolute;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-left-imp {
+  text-align: left !important;
+}
+
+.val-middle {
+  vertical-align: middle;
+}
+
+.val-top {
+  vertical-align: top;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.lh100per {
+  line-height: 100%;
+}
+
+.all-border-box * {
+  box-sizing: border-box;
+}
+
+.confirm-btn-mg {
+  margin-right: 14px;
+}
+
+.align-middle-imp {
+  vertical-align: middle !important;
+}
+
+.text-right-imp {
+  text-align: right !important;
+}
+
+.text-left-imp {
+  text-align: left !important;
+}
+
+.text-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.cm-a {
+  color: #6d6dfe;
+}
+
+/*margin*/
+.mt6 {
+  margin-top: 6px;
+}
+
+.mt8 {
+  margin-top: 8px;
+}
+
+.mt9 {
+  margin-top: 9px;
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+
+.mt12 {
+  margin-top: 12px;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.mt23 {
+  margin-top: 23px;
+}
+
+.mt27 {
+  margin-top: 27px;
+}
+
+.mt30 {
+  margin-top: 30px;
+}
+
+.mt82 {
+  margin-top: 82px;
+}
+
+.mr28 {
+  margin-right: 28px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.mb22 {
+  margin-bottom: 22px;
+}
+
+.ml10 {
+  margin-left: 10px;
+}
+
+.ml28 {
+  margin-left: 28px;
+}
+
+/*margin end*/
+
+/*width*/
+.w50per {
+  width: 50%;
+}
+
+/*width end*/
+
+/*padding*/
+.pr19 {
+  padding-right: 19px;
+}
+
+.pr28 {
+  padding-right: 28px;
+}
+
+.pb18 {
+  padding-bottom: 18px;
+}
+
+.pl19 {
+  padding-left: 19px;
+}
+
+.pl28 {
+  padding-left: 28px;
+}
+
+.pl52 {
+  padding-left: 52px;
+}
+
+/*padding end*/
+
+/*height*/
+
+.h100per {
+  height: 100%;
+}
+
+/*height end*/
+
+/*公共*/
+
+.main-box {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.app-container {
+  min-height: 100vh;
+}
+
+.cm-btn {
+  width: 100%;
+  height: 43px;
+  background: #656476;
+  box-shadow: 0 10px 10px 0 rgba(101, 100, 118, 0.3);
+  border-radius: 22px;
+  color: #fff;
+  font-size: 17px;
+
+  &.active {
+    background: #59C1B6;
+    box-shadow: 0 5px 5px 0 rgba(89, 193, 182, 0.3);
+  }
+}
+
+.cm-btn-primary {
+  width: 100%;
+  color: $login-green;
+  font-size: 14px;
+  height: 30px;
+  border: 1px solid $login-green;
+  border-radius: 15px;
+  background: transparent;
+}
+
+.img100per {
+  width: 100%;
+  height: 100%;
+}
+
+.divider {
+  height: 1px;
+  width: 100%;
+  margin: 13px 0;
+  background: rgba(101, 100, 118, 1);
+  position: relative;
+
+  &-text {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: rgba(28, 28, 33, 1);
+    padding: 0 23px;
+    font-size: 10px;
+    font-family: Adobe Heiti Std R;
+    font-weight: normal;
+    color: rgba(101, 100, 118, 1);
+  }
+}
+
+
+.w-vee-error {
+  color: #FF6B6B;
+  font-size: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+/*公共 end*/
+
+/*fix*/
+
+.app-container {
+}
+
+
+/*fix end*/
+
+/*动画*/
+
+.bottomToUp-enter {
+  bottom: 0;
+}
+
+.bottomToUp-leave-to {
+  bottom: -100%;
+}
+
+.bottomToUp-enter-active {
+  animation: model-bottomToUp .3s;
+}
+
+.bottomToUp-leave-active {
+  animation: model-bottomToUp .3s reverse;
+}
+
+@keyframes model-bottomToUp {
+  0% {
+    bottom: -100%;
+  }
+  100% {
+    bottom: 0;
+  }
+}
+
+/*动画 end*/
